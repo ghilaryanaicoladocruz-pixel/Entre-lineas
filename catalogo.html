@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Catálogo | Entre Líneas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenedor barra">
+            <a class="logo" href="index.html">
+                <img src="imagenes/icono-logo.jpg" alt="" width="26" height="26">
+                <span>Entre Líneas</span>
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalogo.html" class="activo">Catálogo</a></li>
+                    <li><a href="index.html#sobre-nosotros">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+            <div class="buscador">
+                <img src="imagenes/icono-buscar.jpg" alt="" width="18" height="18">
+                <input type="search" placeholder="Buscar por título o autor" aria-label="Buscar por título o autor">
+            </div>
+        </div>
+    </header>
+    <main class="contenedor">
+        <section class="catalogo-encabezado">
+            <p class="etiqueta">Historias para ti</p>
+            <h1>Encuentra tu próxima lectura</h1>
+            <div class="catalogo-linea">
+                <p class="subtexto">Misterio, fantasía, romance y aventura. ¿Por dónde quieres empezar?</p>
+                <p class="contador">6 libros</p>
+            </div>
+            <p class="etiqueta">Filtros por género</p>
+            <div class="filtros">
+                <button class="filtro activo">Todos</button>
+                <button class="filtro">Misterio</button>
+                <button class="filtro">Fantasía</button>
+                <button class="filtro">Romance</button>
+                <button class="filtro">Aventura</button>
+            </div>
+        </section>
+        <section>
+            <div class="libros">
+                <article class="libro">
+                    <div class="libro-portada"><img src="imagenes/portada-principe-niebla.jpg" alt="Portada del libro El príncipe de la niebla" width="120" height="170"></div>
+                    <p class="libro-genero">Misterio</p>
+                    <h3>El príncipe de la niebla</h3>
+                    <p class="libro-autor">Carlos Ruiz Zafón</p>
+                    <div class="libro-compra">
+                        <p class="precio">$249 <span>MXN</span></p>
+                        <button class="boton">Comprar</button>
+                    </div>
+                </article>
+                <article class="libro">
+                    <div class="libro-portada"><img src="imagenes/portada-coraline.jpg" alt="Portada del libro Coraline" width="120" height="170"></div>
+                    <p class="libro-genero">Fantasía</p>
+                    <h3>Coraline</h3>
+                    <p class="libro-autor">Neil Gaiman</p>
+                    <div class="libro-compra">
+                        <p class="precio">$279 <span>MXN</span></p>
+                        <button class="boton">Comprar</button>
+                    </div>
+                </article>
+                <article class="libro">
+                    <div class="libro-portada"><img src="imagenes/portada-corte-rosas-espinas.jpg" alt="Portada del libro Una corte de rosas y espinas" width="120" height="170"></div>
+                    <p class="libro-genero">Fantasía</p>
+                    <h3>Una corte de rosas y espinas</h3>
+                    <p class="libro-autor">Sarah J. Maas</p>
+                    <div class="libro-compra">
+                        <p class="precio">$399 <span>MXN</span></p>
+                        <button class="boton">Comprar</button>
+                    </div>
+                </article>
+                <article class="libro">
+                    <div class="libro-portada"><img src="imagenes/portada-todos-los-chicos.jpg" alt="Portada del libro A todos los chicos de los que me enamoré" width="120" height="170"></div>
+                    <p class="libro-genero">Romance</p>
+                    <h3>A todos los chicos de los que me enamoré</h3>
+                    <p class="libro-autor">Jenny Han</p>
+                    <div class="libro-compra">
+                        <p class="precio">$299 <span>MXN</span></p>
+                        <button class="boton">Comprar</button>
+                    </div>
+                </article>
+                <article class="libro">
+                    <div class="libro-portada"><img src="imagenes/portada-castillo-ambulante.jpg" alt="Portada del libro El castillo ambulante" width="120" height="170"></div>
+                    <p class="libro-genero">Fantasía</p>
+                    <h3>El castillo ambulante</h3>
+                    <p class="libro-autor">Diana Wynne Jones</p>
+                    <div class="libro-compra">
+                        <p class="precio">$329 <span>MXN</span></p>
+                        <button class="boton">Comprar</button>
+                    </div>
+                </article>
+                <article class="libro">
+                    <div class="libro-portada"><img src="imagenes/portada-isla-tesoro.jpg" alt="Portada del libro La isla del tesoro" width="120" height="170"></div>
+                    <p class="libro-genero">Aventura</p>
+                    <h3>La isla del tesoro</h3>
+                    <p class="libro-autor">Robert Louis Stevenson</p>
+                    <div class="libro-compra">
+                        <p class="precio">$229 <span>MXN</span></p>
+                        <button class="boton">Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie">
+        <div class="contenedor pie-contenido">
+            <div>
+                <p class="pie-logo">Entre Líneas</p>
+                <p class="pie-frase">Tu próxima historia empieza aquí.</p>
+            </div>
+            <div class="pie-derecha">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="index.html#sobre-nosotros">Sobre nosotros</a></li>
+                </ul>
+                <p class="derechos">© 2026 Entre Líneas. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
